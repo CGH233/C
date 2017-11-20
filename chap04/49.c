@@ -14,7 +14,7 @@ int main()
             b ++;
             c ++;
          }}
-    printf("\n");
+    putchar('\n');
     printf("约数有%d个。\n",c);
     return 0;
 }
