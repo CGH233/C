@@ -11,7 +11,7 @@ int main ()
     i = 1;
     if (no >=0){
         while (i <= no) {
-            printf("%d", i++);
+            printf("%d ", i++);
     }   printf("\n"); }
     else
         return 0;
