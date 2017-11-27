@@ -1,6 +1,6 @@
 /* 7-2 */
 #include <stdio.h>
-int mi(const unsigned x,unsigned n)
+unsigned mi(const unsigned x,unsigned n)
 {
     unsigned i, a;
     a = x;
@@ -18,9 +18,10 @@ int count_bits(unsigned x)
     }
     return bits;
 }
+
 int int_bits()
 {
-    return count_bits(-0U);
+    return count_bits(~0U);
 }
 void print_bits(unsigned x)
 {
