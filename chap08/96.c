@@ -1,4 +1,5 @@
 /* 8-10 */
+/*第八章完成*/
 #include <stdio.h>
 int main ()
 {
