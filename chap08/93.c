@@ -11,7 +11,7 @@ int factorial(int n)
     return b;
     }
     else
-        return 0;
+        return 1;
 }
 int main()
 {
